@@ -1,0 +1,6 @@
+{
+  "name": "Echo - Conversational AI Companion",
+  "description": "Real-time voice companion with conversational intelligence, acoustic vocal cue analysis, dynamic turn-taking, barge-in interruption handling, and long-term memory.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
