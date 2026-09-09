@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Echo - Conversational AI Companion</title>
+    <meta name="description" content="Real-time voice companion with conversational intelligence, acoustic vocal cue analysis, dynamic turn-taking, barge-in interruption handling, and long-term memory." />
+    <meta property="og:title" content="Echo - Conversational AI Companion" />
+    <meta property="og:description" content="Real-time voice companion with conversational intelligence, acoustic vocal cue analysis, dynamic turn-taking, barge-in interruption handling, and long-term memory." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&family=JetBrains+Mono:wght@400;500;600&family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&display=swap" rel="stylesheet">
+    <script>
+      // Prevent benign Vite dev HMR websocket notices from surfacing as unhandled rejection banners
+      window.addEventListener('unhandledrejection', function(event) {
+        var str = (event && event.reason && (event.reason.message || event.reason.stack || '' + event.reason)) || '';
+        if (str.indexOf('WebSocket') !== -1 || str.indexOf('websocket') !== -1 || str.indexOf('[vite]') !== -1) {
+          event.preventDefault();
+        }
+      });
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
